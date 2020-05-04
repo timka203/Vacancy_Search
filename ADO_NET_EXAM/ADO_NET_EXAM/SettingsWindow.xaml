@@ -16,7 +16,7 @@
             <RowDefinition></RowDefinition>
             <RowDefinition Height="180"></RowDefinition>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0" Grid.Column="1">
+        <!--<StackPanel Grid.Row="0" Grid.Column="1">
             <Label>Server</Label>
             <TextBox x:Name="server" ></TextBox>
             <Label>Table</Label>
@@ -29,6 +29,19 @@
             <Label>Password</Label>
             <TextBox x:Name="password"  IsEnabled="False"></TextBox>
             <Button x:Name="btn_search" Click="btn_search_Click" >Confirm</Button>
+        </StackPanel>-->
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="3">
+            <ListView Margin="10" Name="lvSync" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="100" >
+
+                <ListView.View>
+
+                    <GridView>
+                        <GridViewColumn Header="Category_Name" Width="120" DisplayMemberBinding="{Binding Category_Name}" />
+                        <GridViewColumn Header="Count" Width="120" DisplayMemberBinding="{Binding Count}" />
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
         </StackPanel>
     </Grid>
 </Window>

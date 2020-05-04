@@ -30,8 +30,8 @@
                 <ListView.View>
 
                     <GridView>
-                        <GridViewColumn Header="title" Width="120" DisplayMemberBinding="{Binding Id}" />
-                        <GridViewColumn Header="link" Width="120" DisplayMemberBinding="{Binding Category_Name}" />
+                        <GridViewColumn Header="Id" Width="120" DisplayMemberBinding="{Binding Id}" />
+                        <GridViewColumn Header="Category_Name" Width="120" DisplayMemberBinding="{Binding Category_Name}" />
                     
                     </GridView>
                 </ListView.View>
