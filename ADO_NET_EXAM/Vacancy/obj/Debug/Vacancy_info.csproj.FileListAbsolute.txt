@@ -1,0 +1,15 @@
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\bin\Debug\Vacancy.dll.config
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\bin\Debug\Vacancy.dll
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\bin\Debug\Vacancy.pdb
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\bin\Debug\EntityFramework.dll
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\bin\Debug\EntityFramework.xml
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\obj\Debug\Vacancy_info.csprojAssemblyReference.cache
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\obj\Debug\Vacancy_info.csproj.CoreCompileInputs.cache
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\obj\Debug\Vacancy_info.csproj.CopyComplete
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\obj\Debug\Vacancy.dll
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\obj\Debug\Vacancy.pdb
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\bin\Debug\Task_1.exe
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\bin\Debug\Task_1.pdb
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Vacancy\bin\Debug\Task_1.exe.config

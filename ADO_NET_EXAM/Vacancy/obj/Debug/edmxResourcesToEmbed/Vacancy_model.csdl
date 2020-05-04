@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Vacancy_Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Vacancy_ModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="VacancySet" EntityType="Vacancy_Model.Vacancy" />
+    <EntitySet Name="CategorySet" EntityType="Vacancy_Model.Category" />
+    <AssociationSet Name="CategoryVacancy" Association="Vacancy_Model.CategoryVacancy">
+      <End Role="Category" EntitySet="CategorySet" />
+      <End Role="Vacancy" EntitySet="VacancySet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Vacancy">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Category" Relationship="Vacancy_Model.CategoryVacancy" FromRole="Vacancy" ToRole="Category" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="title" Type="String" Nullable="false" />
+    <Property Name="link" Type="String" Nullable="false" />
+    <Property Name="description" Type="String" Nullable="false" />
+    <Property Name="pubDate" Type="String" Nullable="false" />
+    <Property Name="guid" Type="String" Nullable="false" />
+    <Property Name="author" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Vacancy" Relationship="Vacancy_Model.CategoryVacancy" FromRole="Category" ToRole="Vacancy" />
+    <Property Name="Category_Name" Type="String" Nullable="false" />
+  </EntityType>
+  <Association Name="CategoryVacancy">
+    <End Type="Vacancy_Model.Category" Role="Category" Multiplicity="1" />
+    <End Type="Vacancy_Model.Vacancy" Role="Vacancy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Vacancy">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

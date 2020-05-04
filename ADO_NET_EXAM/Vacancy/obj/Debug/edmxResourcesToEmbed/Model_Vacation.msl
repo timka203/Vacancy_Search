@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model_VacationStoreContainer" CdmEntityContainer="Model_VacationContainer">
+    <EntitySetMapping Name="VacancySet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model_Vacation.Vacancy)">
+        <MappingFragment StoreEntitySet="VacancySet">
+          <ScalarProperty Name="link" ColumnName="link" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="pubDate" ColumnName="pubDate" />
+          <ScalarProperty Name="guid" ColumnName="guid" />
+          <ScalarProperty Name="author" ColumnName="author" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

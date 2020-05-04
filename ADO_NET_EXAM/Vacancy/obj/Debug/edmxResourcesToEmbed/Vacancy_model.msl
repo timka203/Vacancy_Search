@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Vacancy_ModelStoreContainer" CdmEntityContainer="Vacancy_ModelContainer">
+    <EntitySetMapping Name="VacancySet">
+      <EntityTypeMapping TypeName="IsTypeOf(Vacancy_Model.Vacancy)">
+        <MappingFragment StoreEntitySet="VacancySet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="link" ColumnName="link" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="pubDate" ColumnName="pubDate" />
+          <ScalarProperty Name="guid" ColumnName="guid" />
+          <ScalarProperty Name="author" ColumnName="author" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategorySet">
+      <EntityTypeMapping TypeName="IsTypeOf(Vacancy_Model.Category)">
+        <MappingFragment StoreEntitySet="CategorySet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Category_Name" ColumnName="Category_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

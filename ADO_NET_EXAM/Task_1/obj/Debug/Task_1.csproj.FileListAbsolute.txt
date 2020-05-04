@@ -1,0 +1,13 @@
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\bin\Debug\Task_1.exe.config
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\bin\Debug\Task_1.exe
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\bin\Debug\Task_1.pdb
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\obj\Debug\Task_1.csprojAssemblyReference.cache
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\obj\Debug\Task_1.csproj.CoreCompileInputs.cache
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\obj\Debug\Task_1.exe
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\obj\Debug\Task_1.pdb
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\bin\Debug\EntityFramework.dll
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\bin\Debug\EntityFramework.xml
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Timur\source\repos\ADO_NET_EXAM\Task_1\obj\Debug\Task_1.csproj.CopyComplete
