@@ -1,5 +1,5 @@
-# ADO_NET_EXAM_0_5
-ADO_NET_EXAM - программа для получения вакансий с сайта http://vacancy.kharkov.ua/widgets/rssfeeds
+# Vacancy_Search
+Vacancy_Search - программа для получения вакансий с сайта http://vacancy.kharkov.ua/widgets/rssfeeds
 В приложении есть следующие пункты меню:
 а. Категории вакансий
 б. Поиск работы
@@ -29,7 +29,7 @@ c. Настройки
 Содержит информацию о категориях и количестве сообщений в этой категории.
 
 
-ADO_NET_EXAM - a program for obtaining vacancies from the site http://vacancy.kharkov.ua/widgets/rssfeeds
+Vacancy_Search - a program for obtaining vacancies from the site http://vacancy.kharkov.ua/widgets/rssfeeds
 The application has the following menu items:
 a. Job Categories
 b. Job search
@@ -83,12 +83,12 @@ by a letter to his mail, in which a full description of the problem that arose.
 
 
 
-Vacancy_info- классы для работы ADO_NET_EXAM.
-  Для работы базы данных стоит изменить connectionString  в файле App.config в ADO_NET_EXAM и в Vacancy_info
+Vacancy_info- классы для работы Vacancy_Search.
+  Для работы базы данных стоит изменить connectionString  в файле App.config в Vacancy_Search и в Vacancy_info
  
 
  Потом открыть файл Vacancy_Model.edmx.sql и запустить написанный там скрипт в нужной вам базе данных 
-Vacancy_info- classes for ADO_NET_EXAM to work.
-   For the database to work, it is worth changing the connectionString in the App.config file in ADO_NET_EXAM and in Vacancy_info
+Vacancy_info- classes for Vacancy_Search to work.
+   For the database to work, it is worth changing the connectionString in the App.config file in Vacancy_Search and in Vacancy_info
    Then open the Vacancy_Model.edmx.sql file and run the script written there in the database you need
 
