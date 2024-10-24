@@ -1,9 +1,3 @@
-# Vacancy_Search
-Vacancy_info- классы для работы Vacancy_Search.
-Для работы базы данных стоит изменить connectionString  в файле App.config в Vacancy_Search и в Vacancy_info
-Потом открыть файл Vacancy_Model.edmx.sql и запустить написанный там скрипт в нужной вам базе данных 
-
-
 Vacancy_Search - a program for obtaining vacancies from the site http://vacancy.kharkov.ua/widgets/rssfeeds
 
 The application has the following menu items:
@@ -91,3 +85,8 @@ Task_1- консольное приложение, которое выгружа
  Так же делается проверка на наличие записи на сегодняшний день.
   В случае неуспешной загрузки данных в таблицу, или же отсутствие курса по ссылке, приложение уведомлет администратора письмом на его почту, 
 в котором  полное описание проблемы, которая возникла.
+
+# Vacancy_Search
+Vacancy_info- классы для работы Vacancy_Search.
+Для работы базы данных стоит изменить connectionString  в файле App.config в Vacancy_Search и в Vacancy_info
+Потом открыть файл Vacancy_Model.edmx.sql и запустить написанный там скрипт в нужной вам базе данных 
